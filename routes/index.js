@@ -6,7 +6,7 @@ router.get("/", (req, res) => res.send("this is the root"));
 
 router.post("/plants", controllers.createPlant);
 router.get("/plants", controllers.getAllPlants);
-router.get("/plants/:id", controllers.getPlantsById);
-router.put("/plants/:id", controllers.updatePlant);
+//router.get("/plants/:id", controllers.getPlantsById);
+//router.put("/plants/:id", controllers.updatePlant);
 router.delete("/plants/:id", controllers.deletePlant);
 module.exports = router;
